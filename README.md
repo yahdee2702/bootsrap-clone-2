@@ -46,9 +46,15 @@ assets/images/          Aset gambar
 
 ## Masalah yang Diketahui
 
-- Seluruh berkas di `assets/images/` masih berupa placeholder berisi teks
-  "Gotcha, this is empty" (21 byte), sehingga gambar tampil rusak. Berkas tersebut
-  perlu diganti dengan gambar asli.
+- `assets/images/bs-themes.png` masih berupa placeholder berisi teks
+  "Gotcha, this is empty" (21 byte), sehingga ilustrasi pada bagian
+  "Bootstrap Official Themes" tampil rusak dan perlu diganti dengan gambar asli.
+  Logo `logo-white.svg` dan `logo-black.svg` sudah diperbaiki.
 - `assets/images/bs-icons.png` dan `assets/images/main.svg` belum dipakai di `index.html`.
 - Versi Bootstrap pada CDN masih `5.3.0-alpha2`. Pembaruan sengaja belum dilakukan
   agar tampilan yang sudah disepakati tidak berubah.
+
+## Lisensi Aset
+
+Logo pada `assets/images/logo-white.svg` dan `assets/images/logo-black.svg`
+menggunakan logo resmi Bootstrap (lisensi MIT, proyek twbs/bootstrap).
